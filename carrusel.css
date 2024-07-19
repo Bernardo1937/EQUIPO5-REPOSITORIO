@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #654ea3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+    background-color: #212529;
+}
+
+
+.header img {
+    max-width: 100px;
+}
+
+.header h1 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 0px;
+    color: white;
+}
+
+.nav {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 8px 16px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+}
+
+.nav a.active,
+nav a:hover {
+    background-color: #7936FF;
+    color: white;
+}
+
+.seccion {
+    margin: 20px auto;
+}
+
+.seccion h2{
+    color: white;
+}
+
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.carousel-control.prev {
+    left: 10px;
+}
+
+.carousel-control.next {
+    right: 10px;
+}
+
+.text-complement {
+    margin: 20px auto;
+}
+
+
+.text-complement h2{
+    color: white;
+}
+
+.text-complement h3{
+    color: white;
+}
